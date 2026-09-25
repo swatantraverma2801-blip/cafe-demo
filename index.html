@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#25332d">
+  <meta name="description" content="Brew & Bloom — thoughtfully brewed coffee, beautiful plates and a little time for yourself. Explore our menu and reserve a table.">
+  <title>Brew & Bloom — Coffee, Comfort & Good Company</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/config.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon-defs" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M4 8h16l-1.4 12H5.4L4 8Zm4 0V6a4 4 0 0 1 8 0v2"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M20 10c0 5.1-8 11-8 11S4 15.1 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.3 7.7L22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3L12 2Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3 4 5c-1 1-1 3 0 5 2 5 5 8 10 10 2 1 4 1 5 0l2-3-5-4-2 3c-3-1-5-3-6-6l3-2-4-5Z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.2 11.6a8.2 8.2 0 0 1-12 7.3L4 20l1.2-4.1a8.2 8.2 0 1 1 15-4.3Z"/><path d="M9 8.5c.5 3 2.5 5 6 6.8l1.5-1.4"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C8 4 4 9 4 15a5 5 0 0 0 5 5c6 0 11-4 11-16ZM5 19c2-4 6-7 12-10"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><span class="announcement-dot"></span> YOUR NEW FAVOURITE CORNER <span class="announcement-star">✳</span> FRESHLY BREWED, EVERY DAY</div>
+
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="#home" aria-label="Brew and Bloom home">
+        <span class="logo-mark"><svg class="icon"><use href="#i-spark"></use></svg></span>
+        <span class="logo-type">brew<span class="logo-amp">&</span>bloom<small>COFFEE HOUSE</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a><a href="#story">Our story</a><a href="#menu">Menu</a><a href="#moments">Gallery</a><a href="#visit">Visit us</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-book" href="#reserve">Book a table <svg class="icon"><use href="#i-arrow"></use></svg></a>
+        <button class="cart-trigger" type="button" aria-label="Open your order" id="cart-trigger"><svg class="icon"><use href="#i-bag"></use></svg><span class="cart-count" id="cart-count" hidden>0</span></button>
+        <button class="menu-toggle" type="button" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><svg class="icon"><use href="#i-menu"></use></svg></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a><a href="#story">Our story</a><a href="#menu">Menu</a><a href="#moments">Gallery</a><a href="#reserve">Book a table</a><a href="#visit">Visit us</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-texture"></div><div class="hero-grain"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow hero-eyebrow"><span class="little-line"></span> THE ART OF SLOW LIVING</p>
+          <h1 id="hero-title">A little coffee.<br>A lot of <em>feeling.</em></h1>
+          <p class="hero-description">Your everyday escape for really good coffee, comforting bites and conversations that last a little longer.</p>
+          <div class="hero-buttons"><a href="#menu" class="btn btn-cream">Explore our menu <svg class="icon"><use href="#i-arrow"></use></svg></a><a href="#reserve" class="text-link hero-link">Find your table <span>↗</span></a></div>
+          <div class="hero-bottom"><span class="hero-bottom-icon">✳</span><span>MADE WITH LOVE<br><strong>ONE CUP AT A TIME</strong></span><span class="hero-bottom-separator"></span><span class="hero-bottom-copy">Stay a while. You belong here.</span></div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Coffee house atmosphere">
+          <div class="hero-visual-frame"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85" alt="Warm café interior with a welcoming coffee counter" data-fallback="assets/cafe-scene.svg" fetchpriority="high"></div>
+          <div class="hero-stamp" aria-hidden="true"><span class="stamp-top">GOOD COFFEE · GOOD DAYS ·</span><span class="stamp-center">✳</span><span class="stamp-bottom">BREW & BLOOM</span></div>
+          <div class="hero-image-caption"><span class="hero-caption-dot"></span> GOOD THINGS ARE BREWING</div>
+        </div>
+      </div>
+      <a href="#story" class="scroll-cue"><span>SCROLL TO DISCOVER</span><svg class="icon"><use href="#i-chevron"></use></svg></a>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>FRESHLY BREWED</span><b>✳</b><span>SLOW MORNINGS</span><b>✳</b><span>GOOD COMPANY</span><b>✳</b><span>HAPPY HEARTS</span><b>✳</b><span>FRESHLY BREWED</span><b>✳</b><span>SLOW MORNINGS</span><b>✳</b><span>GOOD COMPANY</span><b>✳</b><span>HAPPY HEARTS</span><b>✳</b></div></div>
+
+    <section class="intro section-pad" id="story" aria-labelledby="intro-title">
+      <div class="container intro-layout">
+        <div class="intro-photo-wrap reveal"><div class="intro-photo-main"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=950&q=85" alt="Fresh coffee served in ceramic cups" loading="lazy" data-fallback="assets/coffee-art.svg"></div><div class="intro-photo-small"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=500&q=80" alt="Freshly prepared café coffee" loading="lazy" data-fallback="assets/latte-art.svg"></div><div class="intro-photo-label">A PLACE TO <em>slow down.</em></div></div>
+        <div class="intro-copy reveal"><p class="eyebrow"><span class="little-line"></span> HELLO, THERE</p><h2 class="section-heading" id="intro-title">A warm welcome,<br>in every <em>little detail.</em></h2><p class="lead">Some places just feel like your place.</p><p>We believe the best moments happen over something simple: a beautiful cup of coffee, a plate made with care, and nowhere else you need to be.</p><p>Come for a quick pick-me-up. Stay for the feeling. There’s always a seat waiting for you.</p><a href="#moments" class="btn btn-dark">Step inside our café <svg class="icon"><use href="#i-arrow"></use></svg></a><div class="intro-signature">Good coffee. Good people. <span>Always.</span></div></div>
+      </div>
+    </section>
+
+    <section class="values-section" aria-label="The little things that make us special"><div class="container values-grid"><div class="value-card"><span class="value-num">01 /</span><svg class="icon value-icon"><use href="#i-leaf"></use></svg><h3>Thoughtfully made</h3><p>Every pour and every plate gets our full attention.</p></div><div class="value-card"><span class="value-num">02 /</span><svg class="icon value-icon"><use href="#i-spark"></use></svg><h3>A space to unwind</h3><p>Your corner for quiet mornings and lively catch-ups.</p></div><div class="value-card"><span class="value-num">03 /</span><svg class="icon value-icon"><use href="#i-whatsapp"></use></svg><h3>Made for togetherness</h3><p>Meet, share, laugh and make another little memory.</p></div></div></section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title"><div class="container"><div class="section-topline reveal"><div><p class="eyebrow"><span class="little-line"></span> THE GOOD STUFF</p><h2 class="section-heading" id="menu-title">Something to <em>crave.</em></h2></div><p>From that first morning sip to your favourite afternoon bite. Find a little joy on our menu.</p></div><div class="menu-controls reveal" id="menu-filters" role="group" aria-label="Filter menu categories"><button class="filter-btn is-active" data-filter="all" type="button" aria-pressed="true">All favourites</button><button class="filter-btn" data-filter="coffee" type="button" aria-pressed="false">Coffee</button><button class="filter-btn" data-filter="cold" type="button" aria-pressed="false">Iced & cool</button><button class="filter-btn" data-filter="food" type="button" aria-pressed="false">Bites & bakes</button></div><div class="menu-grid" id="menu-grid" aria-live="polite"></div><div class="menu-bottom"><span>GOOD FOOD, GREAT MOOD. THAT’S THE MENU.</span><a href="#reserve" class="text-link">Make it a café date <span>↗</span></a></div></div></section>
+
+    <section class="feature-section"><div class="feature-photo"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1500&q=85" alt="Cozy café seating and inviting atmosphere" loading="lazy" data-fallback="assets/cafe-scene.svg"></div><div class="feature-shade"></div><div class="container feature-content reveal"><p class="eyebrow eyebrow-light"><span class="little-line"></span> YOUR HAPPY PLACE</p><h2>More than a café.<br><em>A feeling you’ll<br>want to return to.</em></h2><p>Come as you are. Leave a little happier.</p><a href="#reserve" class="btn btn-cream">Save your seat <svg class="icon"><use href="#i-arrow"></use></svg></a></div><div class="feature-side-note">A LITTLE PAUSE IN YOUR DAY ·</div></section>
+
+    <section class="gallery-section section-pad" id="moments" aria-labelledby="moments-title"><div class="container"><div class="gallery-head reveal"><div><p class="eyebrow"><span class="little-line"></span> LITTLE MOMENTS, BIG SMILES</p><h2 class="section-heading" id="moments-title">Life looks <em>lovely</em> here.</h2></div><p>Good coffee tastes even better when the moment is worth remembering.</p></div><div class="gallery-grid"><figure class="gallery-item gallery-a reveal"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1000&q=85" alt="Coffee with beautiful latte art" loading="lazy" data-fallback="assets/latte-art.svg"><figcaption>That first sip feeling <span>01</span></figcaption></figure><figure class="gallery-item gallery-b reveal"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" alt="Golden freshly baked croissants" loading="lazy" data-fallback="assets/pastry-art.svg"><figcaption>Fresh from the oven <span>02</span></figcaption></figure><figure class="gallery-item gallery-c reveal"><img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=900&q=85" alt="Welcoming and warm café interior" loading="lazy" data-fallback="assets/cafe-scene.svg"><figcaption>Your favourite corner <span>03</span></figcaption></figure><figure class="gallery-item gallery-d reveal"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="Espresso in a small cup" loading="lazy" data-fallback="assets/coffee-art.svg"><figcaption>Always made with care <span>04</span></figcaption></figure></div><div class="gallery-footer"><div><span class="small-spark">✳</span> A LITTLE MORE OF WHAT YOU LOVE</div><a href="#visit" class="text-link">Come say hello <span>↗</span></a></div></div></section>
+
+    <section class="booking-section section-pad" id="reserve" aria-labelledby="booking-title"><div class="container booking-layout"><div class="booking-copy reveal"><p class="eyebrow eyebrow-light"><span class="little-line"></span> PULL UP A CHAIR</p><h2 class="section-heading" id="booking-title">Good company<br>deserves a <em>good table.</em></h2><p>Planning a coffee date, a catch-up or a slow afternoon? Send us a table request on WhatsApp. We’ll confirm your booking with you.</p><div class="booking-note"><span>✳</span><span>A booking request is not a confirmed reservation. Our team will reply to confirm availability.</span></div><div class="booking-doodle" aria-hidden="true">see you<br><em>soon!</em> ↗</div></div><form class="booking-form reveal" id="booking-form"><div class="form-heading"><span>YOUR TABLE AWAITS</span><span class="form-heading-star">✳</span></div><div class="form-field"><label for="booking-name">Your name <span>*</span></label><input id="booking-name" name="name" type="text" placeholder="What should we call you?" autocomplete="name" maxlength="70" required></div><div class="form-field"><label for="booking-phone">Phone number <span>*</span></label><input id="booking-phone" name="phone" type="tel" placeholder="Your contact number" autocomplete="tel" inputmode="tel" minlength="8" maxlength="18" required></div><div class="form-row"><div class="form-field"><label for="booking-date">Preferred date <span>*</span></label><input id="booking-date" name="date" type="date" required></div><div class="form-field"><label for="booking-time">Preferred time <span>*</span></label><input id="booking-time" name="time" type="time" required></div></div><div class="form-row"><div class="form-field"><label for="booking-guests">Guests <span>*</span></label><select id="booking-guests" name="guests" required><option value="1">1 person</option><option value="2" selected>2 people</option><option value="3">3 people</option><option value="4">4 people</option><option value="5">5 people</option><option value="6">6 people</option><option value="7+">7+ people</option></select></div><div class="form-field"><label for="booking-note">Anything else?</label><input id="booking-note" name="notes" type="text" maxlength="180" placeholder="Occasion, requests, etc."></div></div><button type="submit" class="btn btn-form">Request on WhatsApp <svg class="icon"><use href="#i-arrow"></use></svg></button><p class="form-disclaimer">We’ll open WhatsApp with your details. You’ll send the message yourself.</p></form></div></section>
+
+    <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title"><div class="container visit-layout"><div class="visit-content reveal"><p class="eyebrow"><span class="little-line"></span> FIND YOUR WAY HERE</p><h2 class="section-heading" id="visit-title">Your coffee is <em>waiting.</em></h2><p>Whenever you need a good cup and a little breather, you know where to find us.</p><div class="visit-details"><div class="visit-detail"><span class="detail-icon"><svg class="icon"><use href="#i-map"></use></svg></span><div><h3>Come on in</h3><p id="cafe-address">Add your café address in js/config.js</p><a id="map-link" class="detail-link" href="#visit" hidden target="_blank" rel="noopener noreferrer">Get directions ↗</a></div></div><div class="visit-detail"><span class="detail-icon"><svg class="icon"><use href="#i-clock"></use></svg></span><div><h3>When we’re here</h3><p id="cafe-hours">Mon – Sun · 9:00 AM – 10:00 PM</p></div></div><div class="visit-detail contact-detail" id="contact-detail" hidden><span class="detail-icon"><svg class="icon"><use href="#i-phone"></use></svg></span><div><h3>Let’s talk</h3><a id="cafe-phone" href="#visit"></a></div></div></div><div class="visit-social"><span>FOLLOW ALONG</span><a id="instagram-link" href="#visit" hidden target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"></use></svg></a><a id="whatsapp-link" href="#visit" hidden target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="icon"><use href="#i-whatsapp"></use></svg></a></div></div><div class="visit-photo reveal"><img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=1100&q=85" alt="Warm and welcoming café counter" loading="lazy" data-fallback="assets/cafe-scene.svg"><div class="visit-photo-badge">COME AS YOU ARE<br><em>stay a while.</em></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-top"><a class="footer-brand" href="#home">brew<span>&</span>bloom<small>COFFEE HOUSE · MADE FOR MOMENTS</small></a><p>A little coffee. A lot of feeling.<br>See you for your next favourite cup.</p><a href="#home" class="back-top" aria-label="Back to top">↑</a></div><div class="footer-bottom"><span>© <span id="year"></span> <span data-cafe-name>Brew & Bloom</span>. All rights reserved.</span><span>GOOD THINGS TAKE TIME. GREAT COFFEE DOESN’T.</span><a href="#reserve">Book a table ↗</a></div></div></footer>
+
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" tabindex="-1"><div class="cart-header"><div><p class="eyebrow">THE GOOD STUFF</p><h2 id="cart-title">Your little order <span>✳</span></h2></div><button class="icon-button" id="cart-close" type="button" aria-label="Close order"><svg class="icon"><use href="#i-x"></use></svg></button></div><div class="cart-items" id="cart-items"><div class="cart-empty"><span>☕</span><h3>Nothing in your cup yet.</h3><p>Find something you love on the menu.</p><button class="btn btn-dark" id="cart-explore" type="button">Explore our menu <svg class="icon"><use href="#i-arrow"></use></svg></button></div></div><div class="cart-footer" id="cart-footer" hidden><div class="cart-order-type"><label for="order-type">ORDER TYPE</label><select id="order-type"><option value="Pickup">Pickup at café</option><option value="Delivery">Delivery (confirm availability)</option></select></div><label class="cart-notes-label" for="order-notes">ANY NOTES?</label><textarea id="order-notes" placeholder="Sugar preferences, delivery address, etc." maxlength="500" rows="3"></textarea><div class="cart-total"><span>Estimated total</span><strong id="cart-total">₹0</strong></div><p class="cart-disclaimer">Prices are sample menu prices. Availability and delivery charges, if any, are confirmed by the café.</p><button class="btn btn-cart-checkout" id="checkout-btn" type="button">Send order on WhatsApp <svg class="icon"><use href="#i-arrow"></use></svg></button></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

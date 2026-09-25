@@ -1,0 +1,15 @@
+BREW & BLOOM CAFE WEBSITE - QUICK START
+
+1. ZIP ko extract karo.
+2. index.html ko Chrome me open karo. Website turant chalegi.
+3. js/config.js me apne cafe ka naam, address, opening hours,
+   asli WhatsApp number, phone, Instagram, Google Maps aur menu/prices badlo.
+4. WhatsApp number country code ke saath SIRF digits me likho,
+   jaise format: 919876543210. Is demo format ko apna number samajhkar mat use karna.
+5. Sab files aur folders ko ek saath hosting ke public_html me upload karo.
+6. Live karne se pahle apne cafe ki original photos, prices, address,
+   order aur table booking ke WhatsApp flows check kar lo.
+
+NOTE: Order aur table booking customer WhatsApp message bhejkar karta hai.
+Cafe ko manually confirmation dena hota hai. Isme booking backend,
+payment gateway ya admin panel nahi hai. Puri details README.md me hain.
